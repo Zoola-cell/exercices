@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "whatis your name?"
-read name
-echo "Hello $name Welcome"
+
+read -p "enter the name :" name
+echo "Hello ${name} welcome"
