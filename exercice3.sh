@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "enter a string :"
-read user_input
+
+read -p "enter a string to calulate its lenght:" user_input
 echo "the lenght of the string is : ${#user_input}"
