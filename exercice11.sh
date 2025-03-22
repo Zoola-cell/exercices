@@ -10,7 +10,6 @@ lenght=${#input_string}
 for (( i=${lenght}-1 ; i>=0 ; i--)); do
 	reversed_string=$reversed_string${input_string:${i}:1}
 done
-echo "$revesed_string"
 if [ "$input_string" == "$reversed_string" ]; then
 	echo "the string is palindrome"
 else 

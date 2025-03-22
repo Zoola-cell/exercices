@@ -11,10 +11,7 @@ sum=0
 #echo "the sum of array is : ${sum}"
 lenght=${#array[@]}
 
-for (( i=0 ; i<$lenght ; i++ ));do
-          
-	echo "${array[$i]}"	
-
+for (( i=4 ; i=>$lenght ; i++));do
+	sum=${array[@]}
 done
-
-
+echo "${sum}"
