@@ -11,17 +11,20 @@ sum=0
 #echo "the sum of array is : ${sum}"
 lenght=${#array[@]}
 
-for (( i=0 ; i<$lenght ; i++ ));do
+#for (( i=0 ; i<$lenght ; i++ ));do
           
-	sum=$(( sum + array[$i] ))	
+#	sum=$(( sum + array[$i] ))	
 
-done
-echo " the sume of array is : ${sum}"
+#done
+#echo " the sume of array is : ${sum}"
 
-#i=0
-#while (( i< $lenght )); do
-#	echo "${array[$i]}"
-#	((i++))
-#done	
+i=0
+while (( i< $lenght )); do
+	sum=$(( sum + array[$i]))
+	((i++))
+
+done	
+echo "print the sum of array : $sum"	
+	
 
 

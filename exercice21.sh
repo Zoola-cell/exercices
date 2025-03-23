@@ -1,8 +1,7 @@
 #!/bin/bash
 
 
-strings=("system" "python" "analysis" "syntax" "systematic" "programming")
-
+strings=("system" "pytihon" "analsysis" "syntax" "systematic" "programmingsys")
 
 substring="sys"
 
