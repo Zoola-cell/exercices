@@ -14,13 +14,10 @@
 #done
 	
 
-#!/bin/bash
 
+#files=($(ls))
 
-files=($(ls))
-
-
-for ((index=0; index<${#files[@]}; index++)); do
-  echo "${files[$index]}"  
-done
+#for ((index=0; index<${#files[@]}; index++)); do
+#	echo "$((index + 1)) :  ${files[$index]}"  
+#done
 
